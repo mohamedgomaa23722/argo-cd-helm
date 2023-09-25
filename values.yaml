@@ -1,6 +1,6 @@
 deploymentName: aircondition-deployment
 imageName: gomaa123/aircondition
-imageTag: V151
+imageTag: V153
 appName: aircondition
 conainerName: aircondition-app
 DB_HOST: mysql
