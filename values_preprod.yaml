@@ -1,0 +1,2 @@
+namespace: preprod
+replicasCount: 3

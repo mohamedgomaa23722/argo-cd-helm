@@ -2,12 +2,13 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ .Values.deploymentName }}
+  namespace: {{ .Values.namespace }}
 spec:
   selector:
     matchLabels:
       app: {{ .Values.appName }}
-  replicas: 3
-  template:
+  replicas: {{ .Values.replicasCount }}
+  template: 
     metadata:
       labels:
         app: {{ .Values.appName }}
