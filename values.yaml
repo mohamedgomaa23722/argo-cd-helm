@@ -1,4 +1,6 @@
 deploymentName: aircondition-deployment
+imageName: gomaa123/aircondition
+imageTag: V151
 appName: aircondition
 conainerName: aircondition-app
 DB_HOST: mysql
@@ -11,3 +13,5 @@ serviceName: aircondition-svc
 port: 8080
 targetPort: 8080
 serviceType: NodePort
+
+namespace: default
